@@ -373,3 +373,86 @@ main {
   }
 }
 
+
+/* ===== Card Setting ===== */
+
+.wrapper-card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-left {
+  border-radius: 20px;
+  width: 35%;
+  height: 330px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-left .wrapper-img .img {
+  border-radius: 20px;
+  width: 100%;
+}
+
+.card-left p {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+.card-right {
+  border-radius: 20px;
+  width: 480px;
+  height: 330px;
+  padding: 20px;
+  text-align: center;
+}
+
+.card-right p.title {
+  font-size: 1.2em;
+}
+
+.card-right .catatan {
+  margin-top: 20px;
+  height: 240px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+/* ===== Raul Page ===== */
+
+/* 
+
+      ISI CSS NYA DISINI Ul
+
+*/
+
+
+/* ===== Zaldi Page ===== */
+
+/* 
+
+      ISI CSS NYA DISINI ZAL
+
+*/
+
+
+/* ===== Sinzie Page ===== */
+
+/* 
+
+      ISI CSS NYA DISINI Zie
+
+*/
+
+
+/* ===== Fadla Page ===== */
+
+/* 
+
+      ISI CSS NYA DISINI 
+
+*/
+
