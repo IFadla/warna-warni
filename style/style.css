@@ -126,9 +126,10 @@ nav .wrapper-link .link {
 
 /* Responsive Navbar */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   header {
     height: 120px;
+    padding: 0 20px;
   }
 
   nav {
@@ -286,9 +287,9 @@ main {
   align-self: center;
 }
 
-/* Responsive Navbar */
+/* Responsive Home */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
   .home {
     width: 100%;
   }
@@ -296,7 +297,6 @@ main {
   .home section {
     width: 95%;
   }
-
 }
 
 /* ===== Animasi Cacing ===== */
@@ -420,6 +420,40 @@ main {
   border-radius: 20px;
 }
 
+/* Responsive Card */
+
+@media only screen and (max-width: 700px) {
+  .wrapper-card {
+    flex-direction: column;
+    margin-top: 260px;
+    padding: 40px 0;
+  }
+
+  .card-right {
+    margin-top: 20px;
+    width: 80%;
+    height: auto;
+  }
+
+  .card-left {
+    width: 80%;
+    height: auto;
+  }
+
+  .wrapper-card {
+    align-items: center;
+  }
+
+  .card-right .catatan {
+    height: auto;
+  }
+
+  .card-left .wrapper-img .img {
+    width: 70%;
+  }
+}
+
+
 
 /* ===== Raul Page ===== */
 
@@ -475,4 +509,16 @@ main {
 
 .card-right .catatan-fadla {
   border: 1.4px solid var(--fadla);
+}
+
+/*===== Responsive Page ===== */
+
+@media only screen and (max-width: 700px) {
+  .fadla {
+    width: 100%;
+  }
+  
+  .fadla section {
+    width: 100%;
+  }
 }
