@@ -15,13 +15,13 @@ Sekumpulan mahasiswa yang sedang belajar git dan github
 # Langkah-Langkah Push
   - Setelah membuat atau melakukan perubahan pada file
     ketik command :
-      git add .
-      git commit -m "isi info perubahan file"
-      git push
+      - git add .
+      - git commit -m "isi info perubahan file"
+      - git push
 
 # Langkah-Langkah Pull
   - Ketika perubahan repositori pada github melebihi commit lokal
     maka kita dapat melakukan penyesuaian commit terhadap repo di github
     dan dilokal dengan cara berikut :
-      git fetch origin master
-      git pull origin master
+      - git fetch origin master
+      - git pull origin master
