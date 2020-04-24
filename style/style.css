@@ -63,12 +63,64 @@ nav .wrapper-link .link {
   transition: all .1s ease;
 }
 
+.active-raul {
+  border: 1px solid var(--raul);
+  padding: 5px 15px;
+  border-radius: 8px;
+  transition: all .1s ease;
+  color: var(--raul) !important;
+}
+
+.active-zaldi {
+  border: 1px solid var(--zaldi);
+  padding: 5px 15px;
+  border-radius: 8px;
+  transition: all .1s ease;
+  color: var(--zaldi) !important;
+}
+
+.active-sinzie {
+  border: 1px solid var(--sinzie);
+  padding: 5px 15px;
+  border-radius: 8px;
+  transition: all .1s ease;
+  color: var(--sinzie) !important;
+}
+
+.active-fadla {
+  border: 1px solid var(--fadla);
+  padding: 5px 15px;
+  border-radius: 8px;
+  transition: all .1s ease;
+  color: var(--fadla) !important;
+}
+
 .link:hover {
   font-weight: 500;
 }
 
 .active-home:hover {
   border: 1.5px solid #161616;
+  font-weight: 500;
+}
+
+.active-raul:hover {
+  border: 1.5px solid var(--raul);
+  font-weight: 500;
+}
+
+.active-zaldi:hover {
+  border: 1.5px solid var(--zaldi);
+  font-weight: 500;
+}
+
+.active-sinzie:hover {
+  border: 1.5px solid var(--sinzie);
+  font-weight: 500;
+}
+
+.active-fadla:hover {
+  border: 1.5px solid var(--fadla);
   font-weight: 500;
 }
 
