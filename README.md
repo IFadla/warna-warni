@@ -10,7 +10,7 @@ Sekumpulan mahasiswa yang sedang belajar git dan github
   - Lalu klik kanan pada didalam folder tersebut 
   - Lalu pilih git bash here
   - setelah itu ketikan command berikut :
-      git clone https://github.com/IFadla/warna-warni.git
+      - git clone https://github.com/IFadla/warna-warni.git
     
 # Langkah-Langkah Push
   - Setelah membuat atau melakukan perubahan pada file
