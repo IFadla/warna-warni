@@ -450,9 +450,29 @@ main {
 
 /* ===== Fadla Page ===== */
 
-/* 
+.fadla {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
 
-      ISI CSS NYA DISINI 
+.fadla section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
 
-*/
 
+.card-left-fadla {
+  border: 1.4px solid var(--fadla);
+  color: var(--fadla);
+}
+
+.card-right-fadla {
+  border: 1.4px solid var(--fadla);
+  color: var(--fadla);
+}
+
+.card-right .catatan-fadla {
+  border: 1.4px solid var(--fadla);
+}
