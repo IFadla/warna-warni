@@ -475,11 +475,32 @@ main {
 
 /* ===== Sinzie Page ===== */
 
-/* 
+.sinzie {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
 
-      ISI CSS NYA DISINI Zie
+.sinzie section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
 
-*/
+
+.card-left-sinzie {
+  border: 1.4px solid var(--sinzie);
+  color: var(--sinzie);
+}
+
+.card-right-sinzie {
+  border: 1.4px solid var(--sinzie);
+  color: var(--sinzie);
+}
+
+.card-right .catatan-sinzie {
+  border: 1.4px solid var(--sinzie);
+}
 
 
 /* ===== Fadla Page ===== */
