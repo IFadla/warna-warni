@@ -483,12 +483,12 @@ main {
 
       .card-left-zaldi {
         border: 1.4px solid var(--zaldi);
-        color: var(--fadla);
+        color: var(--zaldi);
       }
 
       .card-right-zaldi {
         border: 1.4px solid var(--zaldi);
-        color: var(--fadla);
+        color: var(--zaldi);
       }
 
       .card-right .catatan-zaldi {
