@@ -1,16 +1,18 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 :root {
-  --bg : #FFFFFF;
-  --raul : #7061DB;
-  --zaldi : #DB61B2;
-  --sinzie : #61DB8A;
-  --fadla : #61CFDB;
-  --font : #161616;
+  --bg: #FFFFFF;
+  --raul: #7061DB;
+  --zaldi: #DB61B2;
+  --sinzie: #61DB8A;
+  --fadla: #61CFDB;
+  --font: #161616;
 }
 
 body {
@@ -457,43 +459,64 @@ main {
 
 /* ===== Raul Page ===== */
 
-/* 
+.raul {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
 
-      ISI CSS NYA DISINI Ul
+.raul section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
 
-*/
+
+.card-left-raul {
+  border: 1.4px solid var(--raul);
+  color: var(--raul);
+}
+
+.card-right-raul {
+  border: 1.4px solid var(--raul);
+  color: var(--raul);
+}
+
+.card-right .catatan-raul {
+  border: 1.4px solid var(--raul);
+}
 
 
 /* ===== Zaldi Page ===== */
 
 
 
-      .zaldi {
-        width: 75%;
-        display: flex;
-        justify-content: center;
-      }
+.zaldi {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+}
 
-      .zaldi section {
-        width: 80%;
-        display: flex;
-        align-items: center;
-      }
+.zaldi section {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
 
 
-      .card-left-zaldi {
-        border: 1.4px solid var(--zaldi);
-        color: var(--zaldi);
-      }
+.card-left-zaldi {
+  border: 1.4px solid var(--zaldi);
+  color: var(--zaldi);
+}
 
-      .card-right-zaldi {
-        border: 1.4px solid var(--zaldi);
-        color: var(--zaldi);
-      }
+.card-right-zaldi {
+  border: 1.4px solid var(--zaldi);
+  color: var(--zaldi);
+}
 
-      .card-right .catatan-zaldi {
-        border: 1.4px solid var(--zaldi);
-      }
+.card-right .catatan-zaldi {
+  border: 1.4px solid var(--zaldi);
+}
 
 
 
@@ -560,13 +583,14 @@ main {
 /*===== Responsive Page ===== */
 
 @media only screen and (max-width: 700px) {
+
   .fadla,
   .sinzie,
   .zaldi,
   .raul {
     width: 100%;
   }
-  
+
   .fadla section,
   .sinzie section,
   .zaldi section,
